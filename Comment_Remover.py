@@ -1,6 +1,8 @@
 symbol = "#"
 
+#Add the file that you want to remove the comments from
 file1 = open("english_python_data.txt", "r", encoding="utf8")
+#Add the file that you want the code without the comments to be added to
 file2 = open("Code_2", "w", encoding="utf8")
 
 for line in file1.readlines():
